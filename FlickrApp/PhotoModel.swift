@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftyJSON
+import Alamofire
 
 
 struct Photo {
@@ -21,7 +22,7 @@ struct Photo {
         self.smallImage = urlQ
         
     }
-    
 }
+
 
 

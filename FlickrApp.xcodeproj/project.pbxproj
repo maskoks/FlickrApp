@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0CE044614CB8A42FD0447342 /* Pods_FlickrAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98DDCEE5D60B0609552DC7F /* Pods_FlickrAppTests.framework */; };
-		31094F1B2690CEA500A6D0E5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F1A2690CEA500A6D0E5 /* CollectionViewController.swift */; };
-		31094F1D2690D09500A6D0E5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F1C2690D09500A6D0E5 /* Photo.swift */; };
-		31094F1F2690EF9100A6D0E5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F1E2690EF9100A6D0E5 /* CollectionViewCell.swift */; };
+		31094F1D2690D09500A6D0E5 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F1C2690D09500A6D0E5 /* PhotoModel.swift */; };
+		31094F2B2694A36E00A6D0E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F2A2694A36E00A6D0E5 /* MainViewController.swift */; };
+		31094F2D2694A50100A6D0E5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F2C2694A50100A6D0E5 /* PhotoCollectionViewCell.swift */; };
+		31094F2F26951A5D00A6D0E5 /* SelectedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094F2E26951A5D00A6D0E5 /* SelectedPhotoViewController.swift */; };
 		315E56E62690CC060000B03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E56E52690CC060000B03D /* AppDelegate.swift */; };
 		315E56E82690CC060000B03D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E56E72690CC060000B03D /* SceneDelegate.swift */; };
 		315E56ED2690CC060000B03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315E56EB2690CC060000B03D /* Main.storyboard */; };
@@ -44,9 +45,10 @@
 		1CFA710AD9D4308FC12C7320 /* Pods-FlickrAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickrAppTests.release.xcconfig"; path = "Target Support Files/Pods-FlickrAppTests/Pods-FlickrAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		249C2609C32EE67840DC11A6 /* Pods-FlickrApp-FlickrAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickrApp-FlickrAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FlickrApp-FlickrAppUITests/Pods-FlickrApp-FlickrAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E2663D17FF1F906D603D2C3 /* Pods-FlickrApp-FlickrAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickrApp-FlickrAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlickrApp-FlickrAppUITests/Pods-FlickrApp-FlickrAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		31094F1A2690CEA500A6D0E5 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		31094F1C2690D09500A6D0E5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		31094F1E2690EF9100A6D0E5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		31094F1C2690D09500A6D0E5 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		31094F2A2694A36E00A6D0E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		31094F2C2694A50100A6D0E5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		31094F2E26951A5D00A6D0E5 /* SelectedPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPhotoViewController.swift; sourceTree = "<group>"; };
 		315E56E22690CC060000B03D /* FlickrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315E56E52690CC060000B03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		315E56E72690CC060000B03D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,9 +147,10 @@
 		315E56E42690CC060000B03D /* FlickrApp */ = {
 			isa = PBXGroup;
 			children = (
-				31094F1A2690CEA500A6D0E5 /* CollectionViewController.swift */,
-				31094F1E2690EF9100A6D0E5 /* CollectionViewCell.swift */,
-				31094F1C2690D09500A6D0E5 /* Photo.swift */,
+				31094F2A2694A36E00A6D0E5 /* MainViewController.swift */,
+				31094F2E26951A5D00A6D0E5 /* SelectedPhotoViewController.swift */,
+				31094F2C2694A50100A6D0E5 /* PhotoCollectionViewCell.swift */,
+				31094F1C2690D09500A6D0E5 /* PhotoModel.swift */,
 				315E56E52690CC060000B03D /* AppDelegate.swift */,
 				315E56E72690CC060000B03D /* SceneDelegate.swift */,
 				315E56EB2690CC060000B03D /* Main.storyboard */,
@@ -415,12 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31094F1B2690CEA500A6D0E5 /* CollectionViewController.swift in Sources */,
+				31094F2F26951A5D00A6D0E5 /* SelectedPhotoViewController.swift in Sources */,
+				31094F2B2694A36E00A6D0E5 /* MainViewController.swift in Sources */,
+				31094F2D2694A50100A6D0E5 /* PhotoCollectionViewCell.swift in Sources */,
 				315E56E62690CC060000B03D /* AppDelegate.swift in Sources */,
-				31094F1F2690EF9100A6D0E5 /* CollectionViewCell.swift in Sources */,
 				315E56F02690CC060000B03D /* FlickrApp.xcdatamodeld in Sources */,
 				315E56E82690CC060000B03D /* SceneDelegate.swift in Sources */,
-				31094F1D2690D09500A6D0E5 /* Photo.swift in Sources */,
+				31094F1D2690D09500A6D0E5 /* PhotoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
